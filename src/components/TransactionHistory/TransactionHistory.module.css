@@ -1,0 +1,30 @@
+.table {
+  border: 1px solid black;
+  width: 700px;
+  background-color: rgb(48, 48, 48);
+}
+
+.head {
+  color: #fff;
+}
+
+.tr {
+  text-align: center;
+}
+
+.tr:nth-child(even) {
+  background-color: darkgray;
+}
+
+.tr:nth-child(odd) {
+  background-color: white;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+td {
+  font-size: 18px;
+  font-weight: 500;
+}
