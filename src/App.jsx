@@ -16,7 +16,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList prop={friends} />
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
   );

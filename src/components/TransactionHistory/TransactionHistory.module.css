@@ -8,15 +8,15 @@
   color: #fff;
 }
 
-.tr {
+.row {
   text-align: center;
 }
 
-.tr:nth-child(even) {
+.row:nth-child(even) {
   background-color: darkgray;
 }
 
-.tr:nth-child(odd) {
+.row:nth-child(odd) {
   background-color: white;
 }
 
